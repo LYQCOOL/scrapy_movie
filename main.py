@@ -7,4 +7,3 @@ import os
 #将父目录添加到搜索目录中
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 execute(["scrapy","crawl","tenxun"])
-# execute(["scrapy","crawl","lagou"])
